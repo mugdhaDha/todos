@@ -1,0 +1,12 @@
+<template>
+	<h1>Todo</h1>
+
+  <div clss="marginTop">
+      <compose show.bind="todoSelected" view="./detail.html"></compose>
+      <compose show.bind="!todoSelected" view="./list.html"></compose>
+ </div>
+
+
+
+</template>
+
